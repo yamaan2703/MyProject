@@ -1,0 +1,273 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    /* Navbar */
+    .left {
+        position: absolute;
+        top: 5px;
+        left: 100px;
+    }
+
+    .left img {
+        width: 110px;
+        height: 50px;
+    }
+
+    .mid li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    .mid li a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .mid li a:hover {
+        color: rgb(5, 5, 80);
+    }
+
+    .right {
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+
+    .right button {
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        width: 100px;
+    }
+
+
+    /* Home */
+    .head input {
+        display: inline-block;
+        width: 250px;
+        height: 45px;
+        border: 1px solid gray;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .head button {
+        display: inline-block;
+        width: 150px;
+        height: 45px;
+        margin: 0px 5px;
+    }
+
+    .trial p {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        color: gray;
+    }
+
+    .trail .check {
+        color: green;
+    }
+
+
+    /* Work */
+    .work h1 {
+        text-align: center;
+        color: rgb(5, 5, 80);
+    }
+
+    .work .col-4 span {
+        text-align: center;
+    }
+
+    .work .col-4:hover {
+        transition: 2s;
+        transform: translateX(25px);
+    }
+
+    /* About */
+    .about .name {
+        color: rgb(0, 0, 161);
+        font-weight: bold;
+    }
+
+    .about .name span {
+        color: rgb(196, 24, 24);
+    }
+
+    .partner h1 {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .partner img {
+        width: 12%;
+        margin: 30px;
+    }
+
+    .partner img:hover {
+        transform: translateX(25px);
+        transition: 2s;
+    }
+
+    .discover .text1 h1 {
+        font-size: 25px;
+        color: rgb(5, 5, 80);
+    }
+
+    .discover .text1 p {
+        color: gray;
+        padding: 3px;
+    }
+
+    .discover .text1 span {
+        padding: 5px;
+    }
+
+    .facts {
+        text-align: center;
+        margin: 25px;
+    }
+
+    .facts p {
+        display: inline-block;
+        padding: 5px;
+        margin: 20px;
+    }
+
+    .facts .gift {
+        font-size: 40px;
+        padding: 5px;
+        margin: 5px;
+        color: rgb(2, 155, 206);
+    }
+    .facts .heart {
+        font-size: 40px;
+        padding: 5px;
+        margin: 5px;
+        color: rgb(207, 88, 45);
+    }
+    .facts .award {
+        font-size: 40px;
+        padding: 5px;
+        margin: 5px;
+        color: rgb(3, 92, 3);
+    }
+    .facts .basket {
+        font-size: 40px;
+        padding: 5px;
+        margin: 5px;
+        color: rgb(207, 88, 45);
+    }
+    .facts .bell {
+        font-size: 40px;
+        padding: 5px;
+        margin: 5px;
+        color: rgb(216, 216, 53);    
+    }
+
+
+    /* Team */
+    .team .image3 img{
+        border-radius: 10px;
+        width: 90%;
+        height: 50%;
+        margin: 10px;
+    }
+    .team .image3{
+        text-align: center;
+    }
+/* Pricing */
+
+    .cards{
+        margin-top: 50px;
+    }
+   .cards .lines p{
+        margin: 0px 50px;
+        color: gray;
+   }
+   .cards .lines p span{
+         color: rgb(0, 133, 177);
+         margin: 0px 10px;
+   }
+   .cards .btn button{
+          border: 1px solid rgb(0, 133, 177);
+          color: rgb(0, 133, 177);
+          padding: 15px 25px;
+          border-radius: 5px;
+          margin: 40px 50px;
+   }
+   .cards .btn button:hover{
+     background-color: rgb(0, 133, 177);
+     color: white;
+     transition: 1s;
+   }
+
+
+
+   /* Features */
+   .features .first span{
+      font-size: 50px;
+      padding-top: 25PX;
+      color: rgb(0, 212, 0);
+   }
+   .features .first h5{
+    color: rgb(5, 5, 80);
+    font-size: 30px;
+    padding-bottom: 25PX;
+   }
+
+
+
+
+   .row-second{
+    margin: 50px;
+   }
+   .row-second .people{
+    text-align: center;
+    margin: 200px auto;
+   }
+
+
+
+
+
+   /* blog */
+   .blog .box img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+   }
+   .blog .box h5{
+    margin: 10px;
+    text-align: center;
+    color: rgb(5, 5, 80);
+   }
+   .blog .box i{
+    font-size: 14px;
+    margin: 0px 50px;
+    text-align: center;
+    color: gray;
+   }
+   .blog .box{
+    border: 1px solid black;
+    border-radius: 10px;
+   }
+   .contact .form div{
+    margin: 10px 5px;
+   }
+   .contact .form input{
+        width: 400px;
+        height: 40px;
+        padding: 5px 10px;
+        background-color: rgb(240, 240, 240);
+        border: none;
+   }
+   .contact .form textarea{
+    width: 400px;
+    padding: 5px 10px;
+    background-color: rgb(240, 240, 240);
+        border: none;
+   }
