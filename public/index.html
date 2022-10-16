@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    </head>
 
 <body>
 
     <!-- Navbar -->
-    <header>
+    <!-- <header>
         <div class="main bg-light d-flex justify-content-center p-3">
             <div class="left">
                 <img src="images/logo.png" alt="">
@@ -35,14 +36,68 @@
                 <button type="button" class="btn btn-primary">Sign-up</button>
             </div>
         </div>
-    </header>
+    </header> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo-image" src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">How It works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <div class="right">
+                <button type="button" class="btn btn-light"><i class="fa-regular fa-user"></i>Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
 
     <!-- Home -->
+    <!-- d-flex flex-column justify-content-center -->
     <div class="container mt-5">
         <div class="row">
-            <div class="col-6 d-flex flex-column justify-content-center">
+            <div class="col-lg-6">
                 <div class="head">
-                    <h1>Discover The Wold's Most Advanced Online TooLJASDJSKLAJDAWDJKLSAJDHASUODN<span><i
+                    <h1>Discover The Wold's Most Advanced Online Tool<span><i
                                 class="fa-sharp fa-solid fa-message-quote"></i></span> </h1>
                     <p style="color: gray;">Track and analyze all your data in one central location.</p>
                     <div class="input">
@@ -55,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <div class="image1">
                     <img src="images/body 1.png" alt="">
                 </div>
@@ -68,17 +123,20 @@
     <div class="container work m-5">
         <h1>How It Work</h1>
         <div class="row">
-            <div class="col-4 p-5 shadow p-3 mb-5 bg-white rounded">
-                <span><i class="fa-solid fa-volume-high icon1"></i></span>
+            <div class="col-lg-4 p-5 shadow p-3 mb-5 bg-white rounded">
+                <!-- <span><i class="fa-solid fa-volume-high icon1"></i></span> -->
+                <i class="bi bi-megaphone icon1 c1"></i>
                 <h3 style="text-align:center;">Search Oportunities</h3>
                 <p>Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
             </div>
-            <div class="col-4 p-5 shadow p-3 mb-5 bg-white rounded">
-                <i class="fa-sharp fa-solid fa-gem icon2"></i>
+            <div class="col-lg-4 p-5 shadow p-3 mb-5 bg-white rounded">
+                <!-- <i class="fa-sharp fa-solid fa-gem icon2"></i> -->
+                <span><i class="bi bi-gem icon1 c2"></i></span>
                 <h3 style="text-align: center;">Reach Clients</h3>
                 <p>Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
             </div>
-            <div class="col-4 p-5 shadow p-3 mb-5 bg-white rounded">
+            <div class="col-lg-4 p-5 shadow p-3 mb-5 bg-white rounded">
+                <span><i class="bi bi-speedometer icon1 c3"></i></span>
                 <h3 style="text-align: center;">Get Rewarded</h3>
                 <p>Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
             </div>
@@ -88,18 +146,36 @@
     <!-- About -->
     <div class="container about m-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="images/body 2.jpg" alt="">
             </div>
-            <div class="col-6 d-flex flex-column justify-content-center">
+            <!-- d-flex flex-column justify-content-center -->
+            <div class="col-lg-6">
                 <p style="color: gray; font-size: 20px;"> Nemo enimat ipsam voluptatem quia voluptas situm ets
                     aspernatis netsum loris
                     fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
                 <p class="name"> JOHN DOE — General Manager <span>@BeSmart</span></p>
             </div>
         </div>
-
-        <div class="partner">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="partner">
+                    <h1>Trusted By Over 9,000+ Businesses</h1>
+                    <div class="images">
+                        <img src="images/partner1.png" alt="">
+                        <img src="images/partner2.png" alt="">
+                        <img src="images/partner3.png" alt="">
+                        <img src="images/partner4.png" alt="">
+                        <img src="images/partner5.png" alt="">
+                        <img src="images/partner6.png" alt="">
+                        <img src="images/partner7.png" alt="">
+                        <img src="images/partner8.png" alt="">
+                        <img src="images/partner9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="partner">
             <h1>Trusted By Over 9,000+ Businesses</h1>
             <div class="images">
                 <img src="images/partner1.png" alt="">
@@ -112,7 +188,7 @@
                 <img src="images/partner8.png" alt="">
                 <img src="images/partner9.png" alt="">
             </div>
-        </div>
+        </div> -->
 
         <div class="discover d-flex mt-5">
             <div class="col-6 d-flex flex-column justify-content-center">
@@ -188,7 +264,7 @@
         </h1>
         <div class="row">
             <div class="col-4">
-                <div class="cards">
+                <div class="cards pricing-card">
                     <b><p style="color: rgb(39, 39, 252); text-align: center;">BASIC</p></b>
                     <h1 style="color:rgb(5, 5, 80); text-align: center; font-size: 55px;">$25</h1>
                     <p style="color: gray; text-align: center;">Per Month</p>
@@ -205,7 +281,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="cards">
+                <div class="cards pricing-card">
                     <b><p style="color: rgb(30, 39, 252); text-align: center;">STANDARD</p></b>
                     <h1 style="color:rgb(5, 5, 80); text-align: center; font-size: 55px;">$99</h1>
                     <p style="color: gray; text-align: center;">Per Month</p>
@@ -222,7 +298,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="cards">
+                <div class="cards pricing-card">
                     <b><p style="color: rgb(30, 39, 252); text-align: center;">PRO</p></b>
                     <h1 style="color:rgb(5, 5, 80); text-align: center; font-size: 55px;">$199</h1>
                     <p style="color: gray; text-align: center;">Per Month</p>
@@ -245,8 +321,8 @@
     <!-- features -->
     <div class="container m-5 features">
         <h1 style="text-align: center; color: rgb(5, 5, 80); margin-top: 25px;">Amazing Features</h1>
-        <div class="row">
-            <div class="col-4">
+        <!-- <div class="row">
+            <div class="col-lg-4">
                 <div class="first">
                     <h5><span><i class="fa-light fa-gem"></i></span> Support 24/7</h5>
                 <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
@@ -254,7 +330,7 @@
             </div>
             <div class="col-4"></div>
             <div class="col-4"></div>
-        </div>
+        </div> -->
 
 
 
@@ -284,7 +360,9 @@
         <div class="row">
             <div class="col-4">
                 <div class="box">
-                    <img src="images/blog1.jpg" alt="">
+                    <span class="overlay">
+                        <img src="images/blog1.jpg" alt="" class="blog-img">
+                    </span>
                     <h5>The Guide To LinkedIn Ads</h5>
                     <p><i> Marketing & Design — 11 Min Read</i></p>
                     <p style="color: gray; margin: 10px 15px; ">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
@@ -292,7 +370,9 @@
             </div>
             <div class="col-4">
                 <div class="box">
-                    <img src="images/blog2.jpg" alt="">
+                    <span class="overlay">
+                        <img src="images/blog2.jpg" alt="" class="blog-img">
+                    </span>
                     <h5>Affinity Designer Quick Start</h5>
                     <p><i> SaaS Solutions — 25 Min Watch</i></p>
                     <p style="color: gray; margin: 10px 15px;">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
@@ -300,7 +380,9 @@
             </div>
             <div class="col-4">
                 <div class="box">
-                    <img src="images/blog3.jpg" alt="">
+                    <span class="overlay">
+                        <img src="images/blog3.jpg" alt="" class="blog-img">
+                    </span>
                     <h5>Our Happy Team</h5>
                     <p><i>Product Launch — 19 Min Listen</i></p>
                     <p style="color: gray; margin: 10px 15px; ">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
@@ -312,7 +394,7 @@
 
         <!-- contact -->
         <div class="row contact m-5">
-        <div class="col-6">
+        <div class="col-lg-6">
             <h3 style="color: rgb(5, 5, 80);">Get in touch</h3>
             <div class="form">
                 <div>
@@ -329,6 +411,9 @@
                 </div>
                 <button type="button" class="btn btn-primary w-50 h-25">Send Messages</button>
             </div>
+        </div>
+        <div class="col-lg-6">
+            <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Rabia%20City+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe></div>
         </div>
     </div>
        
